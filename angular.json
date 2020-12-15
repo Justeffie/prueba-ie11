@@ -53,6 +53,9 @@
                 }
               ]
             }
+          },
+          "es5": {
+            "tsConfig": "./tsconfig-es5.app.json"
           }
         },
         "serve": {
@@ -64,6 +67,9 @@
             "production": {
               "browserTarget": "prueba-ie11:build:production"
             }
+          },
+          "es5": {
+            "browserTarget": "yourAppName:build:es5"
           }
         },
         "extract-i18n": {
